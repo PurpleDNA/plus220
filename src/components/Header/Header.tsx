@@ -67,7 +67,7 @@ const Header = () => {
   return (
     <>
       <div className="w-full bg-white sticky top-0 z-50">
-        <div className="flex justify-between items-center py-3 px-2 container w-[90%] md:w-full md:max-w-5xl mx-auto">
+        <div className="flex justify-between items-center py-3 px-2  mx-auto w-[90%] md:w-full md:max-w-4/5">
           <img src="/assets/icons/logo_main.png" alt="" className="w-24" />
 
           {/* Desktop Navigation */}
