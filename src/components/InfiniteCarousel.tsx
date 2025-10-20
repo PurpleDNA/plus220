@@ -22,37 +22,54 @@ const InfiniteCarousel = () => {
         <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none" />
         <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none" />
 
-        {/* Infinite scrolling container */}
-        <motion.div
-          className="flex gap-6"
-          animate={{
-            x: [0, -100 * images.length],
-          }}
-          transition={{
-            x: {
-              repeat: Infinity,
-              repeatType: "loop",
-              duration: 25,
-              ease: "linear",
-            },
+        {/* Top wrapper with concave shape - curves inward at middle */}
+        <div
+          className="topWrapper"
+          style={{
+            clipPath:
+              "polygon(0 0%, 25% 5%, 50% 10%, 75% 5%, 100% 0%, 100% 100%, 75% 95%, 50% 90%, 25% 95%, 0 100%)",
+            position: "relative" as const,
           }}
         >
-          {duplicatedImages.map((src, index) => (
-            <motion.div
-              key={index}
-              className="flex-shrink-0 w-80"
-              whileHover={{ scale: 1.05 }}
-              transition={{ duration: 0.3 }}
-            >
-              <img
-                src={src}
-                alt={`Slide ${index + 1}`}
-                className="w-full h-64 object-cover rounded-xl shadow-lg"
-                draggable={false}
-              />
-            </motion.div>
-          ))}
-        </motion.div>
+          {/* Infinite scrolling container */}
+          <motion.div
+            className="flex gap-6"
+            animate={{
+              x: [0, -200 * images.length],
+            }}
+            transition={{
+              x: {
+                repeat: Infinity,
+                repeatType: "loop",
+                duration: 25,
+                ease: "linear",
+              },
+            }}
+          >
+            {duplicatedImages.map((src, index) => (
+              <motion.div
+                key={index}
+                className="flex-shrink-0 w-64"
+                whileHover={{ scale: 1.05 }}
+                transition={{ duration: 0.3 }}
+                style={{
+                  transform: `scale(${
+                    1 -
+                    Math.abs(0.5 - (index % images.length) / images.length) *
+                      0.1
+                  })`,
+                }}
+              >
+                <img
+                  src={src}
+                  alt={`Slide ${index + 1}`}
+                  className="w-full h-64 object-cover rounded-xl shadow-lg"
+                  draggable={false}
+                />
+              </motion.div>
+            ))}
+          </motion.div>
+        </div>
       </div>
     </div>
   );

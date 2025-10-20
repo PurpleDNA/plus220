@@ -49,9 +49,10 @@ const Header = () => {
     const targetElement = document.getElementById(targetId);
 
     if (targetElement) {
-      const headerOffset = 80; // Height of the sticky header
+      const headerOffset = 65; // Height of the sticky header
       const elementPosition = targetElement.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+      const offsetPosition =
+        elementPosition + window.pageYOffset - headerOffset;
 
       window.scrollTo({
         top: offsetPosition,
@@ -96,9 +97,21 @@ const Header = () => {
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Toggle menu"
           >
-            <span className={`w-6 h-0.5 bg-[#081028] transition-all ${isMenuOpen ? 'rotate-45 translate-y-2' : ''}`}></span>
-            <span className={`w-6 h-0.5 bg-[#081028] transition-all ${isMenuOpen ? 'opacity-0' : ''}`}></span>
-            <span className={`w-6 h-0.5 bg-[#081028] transition-all ${isMenuOpen ? '-rotate-45 -translate-y-2' : ''}`}></span>
+            <span
+              className={`w-6 h-0.5 bg-[#081028] transition-all ${
+                isMenuOpen ? "rotate-45 translate-y-2" : ""
+              }`}
+            ></span>
+            <span
+              className={`w-6 h-0.5 bg-[#081028] transition-all ${
+                isMenuOpen ? "opacity-0" : ""
+              }`}
+            ></span>
+            <span
+              className={`w-6 h-0.5 bg-[#081028] transition-all ${
+                isMenuOpen ? "-rotate-45 -translate-y-2" : ""
+              }`}
+            ></span>
           </button>
         </div>
       </div>
@@ -106,7 +119,7 @@ const Header = () => {
       {/* Full Screen Mobile Menu */}
       <div
         className={`fixed inset-0 bg-white z-40 md:hidden transition-transform duration-300 ${
-          isMenuOpen ? 'translate-x-0' : 'translate-x-full'
+          isMenuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
         <div className="flex flex-col h-full justify-between pt-20 pb-8 px-6">
