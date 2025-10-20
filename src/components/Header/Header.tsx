@@ -88,7 +88,12 @@ const Header = () => {
                 </a>
               ))}
             </nav>
-            <Button className=" bg-Bblue ">Book a Call</Button>
+            <a
+              href="https://cal.com/plus220-connect-team/15-minute-chat"
+              target="_blank"
+            >
+              <Button className=" bg-Bblue ">Book a Call</Button>
+            </a>
           </div>
 
           {/* Hamburger Menu Button */}
@@ -140,7 +145,12 @@ const Header = () => {
             ))}
           </nav>
 
-          <Button className="bg-Bblue w-full py-6 text-lg">Book a Call</Button>
+          <a
+            href="https://cal.com/plus220-connect-team/15-minute-chat"
+            target="_blank"
+          >
+            <Button className="bg-Bblue w-full py-6 text-lg">Book a Call</Button>
+          </a>
         </div>
       </div>
     </>

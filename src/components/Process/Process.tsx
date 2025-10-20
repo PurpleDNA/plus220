@@ -51,10 +51,17 @@ const Process = () => {
         <h1 className="heading_2">Let Us Begin from the First Step</h1>
         {/* </div> */}
         <div className="flex gap-4 mx-auto items-center">
-          <Button className="bg-Bblue">Book a Call</Button>
-          <div className="bg-[#E8E8E8] rounded-full p-3 hover:scale-90 cursor-pointer transition-all duration-300">
-            <img src="/assets/icons/AT.png" alt="" className="w-5 h-5" />
-          </div>
+          <a
+            href="https://cal.com/plus220-connect-team/15-minute-chat"
+            target="_blank"
+          >
+            <Button className="bg-Bblue">Book a Call</Button>
+          </a>
+          <a href="mailto:team@plus220.com ">
+            <div className="bg-[#E8E8E8] rounded-full p-3 hover:scale-90 cursor-pointer transition-all duration-300">
+              <img src="/assets/icons/AT.png" alt="" className="w-5 h-5" />
+            </div>
+          </a>
         </div>
       </div>
     </section>

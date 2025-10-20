@@ -9,13 +9,15 @@ const Footer = () => {
           <Button className="bg-white text-black transition-all duration-300">
             Book a Call
           </Button>
-          <div className="bg-[#394053] rounded-full p-3 hover:scale-90 cursor-pointer transition-all duration-300 ">
-            <img
-              src="/assets/icons/AT-WHITE.png"
-              alt=""
-              className="w-5 h-5 text-white  "
-            />
-          </div>
+          <a href="mailto:team@plus220.com ">
+            <div className="bg-[#394053] rounded-full p-3 hover:scale-90 cursor-pointer transition-all duration-300 ">
+              <img
+                src="/assets/icons/AT-WHITE.png"
+                alt=""
+                className="w-5 h-5 text-white  "
+              />
+            </div>
+          </a>
         </div>
       </div>
     </div>
