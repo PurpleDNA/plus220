@@ -14,7 +14,7 @@ const AccordionComp = ({
   value: string;
 }) => {
   return (
-    <AccordionItem value={value} className="w-2/3 mx-auto">
+    <AccordionItem value={value} className="w-[90%] md:w-2/3 mx-auto">
       <AccordionTrigger className="bg-white rounded-t-md p-3 rounded-b-none">
         {question}
       </AccordionTrigger>

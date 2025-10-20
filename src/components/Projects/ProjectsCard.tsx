@@ -1,4 +1,4 @@
-import { ExternalLink } from "lucide-react";
+// import { ExternalLink } from "lucide-react";
 
 const ProjectsCard = ({
   category,
@@ -21,9 +21,9 @@ const ProjectsCard = ({
           <h1 className="text-xl md:text-2xl font-semibold">{name}</h1>
           <p className="text-sm md:text-base">{desc}</p>
         </div>
-        <a className="text-xs md:text-base font-urbanist flex gap-2 items-center cursor-pointer hover:underline">
+        {/* <a className="text-xs md:text-base font-urbanist flex gap-2 items-center cursor-pointer hover:underline">
           View Case Study <ExternalLink className="w-4 h-4" />
-        </a>
+        </a> */}
       </div>
       <div className="w-full md:w-1/2">
         <img src={image} alt="" className="w-full rounded-md" />

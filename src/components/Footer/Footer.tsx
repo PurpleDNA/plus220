@@ -9,7 +9,7 @@ const Footer = () => {
           <Button className="bg-white text-black">Book a Call</Button>
           <div className="bg-[#394053] rounded-full p-3">
             <img
-              src="/assets/icons/AT.png"
+              src="/assets/icons/AT-WHITE.png"
               alt=""
               className="w-5 h-5 text-white"
             />
