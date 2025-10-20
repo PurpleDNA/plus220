@@ -13,7 +13,7 @@ const Projects = () => {
   return (
     <section id="projects" className="bg-[#F5F5F5]">
       <div className="intersection">
-        <h1 className="heading">Projects We've Brought To Life</h1>
+        <h1 className="heading">Healthcare Brands We've Helped Build</h1>
         <div>
           {cardDetails.map((card) => (
             <ProjectsCard

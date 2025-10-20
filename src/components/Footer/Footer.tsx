@@ -6,9 +6,11 @@ const Footer = () => {
       <div className=" bg-[#081028] intersection !py-20">
         <h1 className="heading_2 text-white">Let Us Discuss </h1>
         <div className="flex gap-4 mx-auto items-center">
-          <Button className="bg-white text-black transition-all duration-300">
-            Book a Call
-          </Button>
+          <a href="https://cal.com/plus220-connect-team/15-minute-chat">
+            <Button className="bg-white text-black transition-all duration-300">
+              Book a Call
+            </Button>
+          </a>
           <a href="mailto:team@plus220.com ">
             <div className="bg-[#394053] rounded-full p-3 hover:scale-90 cursor-pointer transition-all duration-300 ">
               <img
