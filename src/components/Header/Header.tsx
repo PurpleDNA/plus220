@@ -68,7 +68,7 @@ const Header = () => {
     <>
       <div className="w-full bg-white sticky top-0 z-50">
         <div className="flex justify-between items-center py-3 px-2 container mx-auto ">
-          <img src="/assets/icons/logo_main.png" alt="" className="w-15" />
+          <img src="/assets/icons/logo_main.png" alt="" className="w-24" />
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex gap-8 items-center">
