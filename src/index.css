@@ -128,10 +128,10 @@
 
 @layer utilities {
   .heading {
-    @apply font-instrumental text-5xl font-[500] w-2/3 text-center;
+    @apply font-instrumental text-3xl md:text-5xl font-[500] w-[90%] md:w-2/3 text-center;
   }
   .heading_2 {
-    @apply font-urbanist text-4xl font-[600] w-2/3 text-center;
+    @apply font-urbanist text-2xl md:text-4xl font-[600] w-[90%] md:w-2/3 text-center;
   }
   .intersection {
     @apply container flex flex-col mx-auto gap-6 items-center py-10;

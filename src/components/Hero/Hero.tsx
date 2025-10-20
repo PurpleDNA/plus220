@@ -9,7 +9,7 @@ const Hero = () => {
             We Design Digital Products for{" "}
             <span className="text-Bblue">Modern Medical Practices</span>
           </h1>
-          <p className="text-center w-3/5">
+          <p className="text-center w-[90%] md:w-3/5 text-sm md:text-base">
             We help hospitals, clinics, and specialists build custom websites,
             dashboards, and mobile apps that enhance care and patient
             experience.
