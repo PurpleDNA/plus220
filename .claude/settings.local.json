@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(npm install react-intersection-observer)"
-    ],
-    "deny": [],
-    "ask": []
-  }
-}
