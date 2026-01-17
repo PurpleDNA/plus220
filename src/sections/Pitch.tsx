@@ -5,13 +5,13 @@ import React from "react";
 
 const pitchData = [
   {
-    icon: "/assets/pitch/barchart-blue.png",
+    icon: "/assets/Pitch/barchart-blue.png",
     title: "Built for Service Businesses",
     subheading:
       "We specialize in working with HVAC companies, plumbers, salons, barbers, and other service-based businesses, so we design with your workflow in mind.",
   },
   {
-    icon: "/assets/pitch/gemini-blue.png",
+    icon: "/assets/Pitch/gemini-blue.png",
     title: "Website & Mobile App Design",
     subheading:
       "Modern, fast, mobile-friendly websites designed to attract customers and convert visits into real inquiries..",
@@ -34,7 +34,7 @@ function Pitch() {
       </div>
       <div className="flex flex-col md:flex-row gap-10 items-center">
         <img
-          src="/assets/pitch/dashboardiness.png"
+          src="/assets/Pitch/dashboardiness.png"
           alt="Dashboard analytics"
           className="w-full h-full md:w-1/2 md:h-1/2"
         />

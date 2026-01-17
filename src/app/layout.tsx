@@ -21,9 +21,9 @@ export const metadata: Metadata = {
   title: "plus220 | Smart Digital Solutions",
   description: "Practical, results-driven solutions for local businesses.",
   icons: {
-    icon: "/assets/vision/logo-half.png",
-    shortcut: "/assets/vision/logo-half.png",
-    apple: "/assets/vision/logo-half.png",
+    icon: "/assets/Vision/logo-half.png",
+    shortcut: "/assets/Vision/logo-half.png",
+    apple: "/assets/Vision/logo-half.png",
   },
 };
 
