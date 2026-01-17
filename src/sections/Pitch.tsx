@@ -5,13 +5,13 @@ import React from "react";
 
 const pitchData = [
   {
-    icon: "/assets/pitch/barchart blue.png",
+    icon: "/assets/pitch/barchart-blue.png",
     title: "Built for Service Businesses",
     subheading:
       "We specialize in working with HVAC companies, plumbers, salons, barbers, and other service-based businesses, so we design with your workflow in mind.",
   },
   {
-    icon: "/assets/pitch/gemini blue.png",
+    icon: "/assets/pitch/gemini-blue.png",
     title: "Website & Mobile App Design",
     subheading:
       "Modern, fast, mobile-friendly websites designed to attract customers and convert visits into real inquiries..",

@@ -20,6 +20,11 @@ const jakarta = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   title: "plus220 | Smart Digital Solutions",
   description: "Practical, results-driven solutions for local businesses.",
+  icons: {
+    icon: "/assets/vision/logo-half.png",
+    shortcut: "/assets/vision/logo-half.png",
+    apple: "/assets/vision/logo-half.png",
+  },
 };
 
 export default function RootLayout({

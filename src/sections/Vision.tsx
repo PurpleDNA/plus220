@@ -28,14 +28,14 @@ const Vision = () => {
   return (
     <section className="section-80 bg-[#F3F6FF] backdrop-blur-3xl space-y-12">
       <Image
-        src="/assets/vision/right ellipse.png"
+        src="/assets/vision/right-ellipse.png"
         alt="vision"
         width={250}
         height={250}
         className="absolute top-0 right-0 -z-10"
       />
       <Image
-        src="/assets/vision/left ellipse.png"
+        src="/assets/vision/left-ellipse.png"
         alt="vision"
         width={250}
         height={250}
@@ -44,7 +44,7 @@ const Vision = () => {
       <div className="w-full flex justify-between flex-col lg:flex-row gap-3 ">
         <div className="flex gap-4 w-full lg:w-2/3 ">
           <Image
-            src="/assets/vision/Logo Half.png"
+            src="/assets/vision/logo-half.png"
             alt="vision"
             width={50}
             height={50}

@@ -2,7 +2,7 @@
 import React from "react";
 
 const images = [
-  "assets/projects/top special.png",
+  "assets/projects/top-special.png",
   "assets/projects/n8n.png",
   "assets/projects/aguda.png",
 ];

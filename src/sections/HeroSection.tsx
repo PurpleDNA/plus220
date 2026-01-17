@@ -10,16 +10,15 @@ export default function HeroSection() {
       <div className="absolute inset-0 -z-10 h-full">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/assets/heroheader/Blurry Background.png"
+          src="/assets/heroheader/blurry-background.png"
           alt="Background gradient"
           className="object-cover h-full w-full"
         />
       </div>
-
       <div className="max-w-5xl mx-auto text-center z-10 space-y-6">
         <div className="inline-flex items-center gap-2 px-6 py-2 rounded-full border border-white/20 bg-white/5 backdrop-blur-md">
           <Image
-            src="/assets/heroheader/settings logo.png"
+            src="/assets/heroheader/settings-logo.png"
             alt="settings icon"
             width={16}
             height={16}
