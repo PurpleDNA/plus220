@@ -2,9 +2,9 @@
 import React from "react";
 
 const images = [
-  "assets/projects/top-special.png",
-  "assets/projects/n8n.png",
-  "assets/projects/aguda.png",
+  "/assets/Projects/top-special.png",
+  "/assets/Projects/n8n.png",
+  "/assets/Projects/aguda.png",
 ];
 
 const Projects = () => {

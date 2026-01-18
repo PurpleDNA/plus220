@@ -4,7 +4,7 @@ const Footer = () => {
     <footer className="text-xs my-2">
       <div className="w-full flex justify-center px-6 md:hidden py-4">
         <Image
-          src="/assets/footer/LogoFooter.png"
+          src="/assets/Footer/LogoFooter.png"
           alt="logo"
           width={50}
           height={50}
@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="flex justify-between items-center px-6 relative">
         <p>&copy; {new Date().getFullYear()} Plus220 Studio 2026</p>
         <Image
-          src="/assets/footer/LogoFooter.png"
+          src="/assets/Footer/LogoFooter.png"
           alt="logo"
           width={100}
           height={100}
@@ -22,7 +22,7 @@ const Footer = () => {
         <div className="flex gap-4 md:gap-10 items-center">
           <a href="https://www.instagram.com/plus220_studio/" target="_blank">
             <Image
-              src="/assets/footer/instagram.png"
+              src="/assets/Footer/instagram.png"
               alt="instagram"
               width={20}
               height={20}
@@ -30,7 +30,7 @@ const Footer = () => {
           </a>
           <a href="mailto:team@plus220.com">
             <Image
-              src="/assets/footer/mail.png"
+              src="/assets/Footer/mail.png"
               alt="mail"
               width={20}
               height={20}

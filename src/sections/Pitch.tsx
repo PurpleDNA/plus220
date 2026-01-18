@@ -32,13 +32,13 @@ function Pitch() {
           one-size-fits-all templates.
         </p>
       </div>
-      <div className="flex flex-col md:flex-row gap-10 items-center">
+      <div className="flex flex-col md:flex-row gap-10 items-stretch">
         <img
           src="/assets/Pitch/dashboardiness.png"
           alt="Dashboard analytics"
           className="w-full h-full md:w-1/2 md:h-1/2"
         />
-        <div className="flex flex-col gap-4 w-full md:w-1/2 md:h-1/2">
+        <div className="flex flex-col gap-4 w-full md:w-1/2 justify-between">
           {pitchData.map((item, index) => (
             <PitchCard key={index} {...item} />
           ))}

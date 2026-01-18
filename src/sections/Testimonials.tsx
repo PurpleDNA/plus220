@@ -7,14 +7,14 @@ const TESTIMONIALS = [
     position: "CEO Top Special Bakery",
     testimonial:
       "The management platform built by +220 Studios transformed how we track production, sales, and expenses across the business. We now have clear visibility into our operations, better control over daily activities, and the confidence to make informed, data-driven decisions that support our growth.",
-    image: "/assets/testimonials/testiTopSpecial.png",
+    image: "/assets/Testimonials/testiTopSpecial.png",
   },
   {
     name: "Fatah Kadiri",
     position: "Founder & CEO Aguda Partners",
     testimonial:
       "I couldn’t be happier with the incredible website +220 developed for my company! From start to finish, their team demonstrated professionalism, creativity, and an unwavering commitment to delivering a top-notch product.They took the time to understand our needs, brought innovative ideas to the table, and kept us updated throughout the process. ",
-    image: "/assets/testimonials/testiAguda.png",
+    image: "/assets/Testimonials/testiAguda.png",
   },
 ];
 
